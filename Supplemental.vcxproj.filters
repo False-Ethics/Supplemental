@@ -24,12 +24,18 @@
     <ClCompile Include="Tester-Function.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="TBA-RPG-Functions.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Declerations.h">
       <Filter>Source Files</Filter>
     </ClInclude>
     <ClInclude Include="Tester.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TBA-RPG-Declerations.h">
       <Filter>Source Files</Filter>
     </ClInclude>
   </ItemGroup>

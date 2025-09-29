@@ -1,1 +1,11 @@
 *.vcxproj
+*.sqlite
+*.vsidx
+.vs/Supplemental/v17/.suo
+*.db
+*.db-shm
+*.db-wal
+*.json
+*.opendb
+*.ipch
+*.tlog
