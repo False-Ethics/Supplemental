@@ -1,1 +1,4 @@
 *.vcxproj
+*.db
+*.json
+.vs/Supplemental/v17/.suo
