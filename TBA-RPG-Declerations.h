@@ -6,6 +6,7 @@
 using namespace std;
 
 string intro();
+string outro();
 
 class playerItem
 {
@@ -18,4 +19,32 @@ public:
 		item[1] = "Item Holder 2";
 		item[2] = "Item Holder 3";
 	};
-} //fix
+public:
+	
+}
+
+class Game
+{
+public:
+
+	Game();
+	~Game();
+public:
+
+private:
+
+public:
+
+	bool operator==(const Game& other) const
+	{
+		return false;
+	}
+};
+// 
+Game::Game()
+{
+}
+Game::~Game()
+{
+}
+
