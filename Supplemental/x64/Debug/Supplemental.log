@@ -1,2 +1,13 @@
-﻿  TBA-RPG-Functions.cpp
-  Supplemental.vcxproj -> C:\Users\s258026\Documents\GitHub\Supplemental\x64\Debug\Supplemental.exe
+﻿  Main.cpp
+C:\Users\s258026\Documents\GitHub\Supplemental\TBA-RPG-Declerations.h(19,2): error C2535: 'playerItem::playerItem(void)': member function already defined or declared
+  (compiling source file 'Main.cpp')
+      C:\Users\s258026\Documents\GitHub\Supplemental\TBA-RPG-Declerations.h(16,2):
+      see declaration of 'playerItem::playerItem'
+  
+  TBA-RPG-Functions.cpp
+C:\Users\s258026\Documents\GitHub\Supplemental\TBA-RPG-Declerations.h(19,2): error C2535: 'playerItem::playerItem(void)': member function already defined or declared
+  (compiling source file 'TBA-RPG-Functions.cpp')
+      C:\Users\s258026\Documents\GitHub\Supplemental\TBA-RPG-Declerations.h(16,2):
+      see declaration of 'playerItem::playerItem'
+  
+  Generating Code...
