@@ -1,13 +1,8 @@
-﻿  Main.cpp
-C:\Users\s258026\Documents\GitHub\Supplemental\TBA-RPG-Declerations.h(19,2): error C2535: 'playerItem::playerItem(void)': member function already defined or declared
-  (compiling source file 'Main.cpp')
-      C:\Users\s258026\Documents\GitHub\Supplemental\TBA-RPG-Declerations.h(16,2):
-      see declaration of 'playerItem::playerItem'
-  
-  TBA-RPG-Functions.cpp
-C:\Users\s258026\Documents\GitHub\Supplemental\TBA-RPG-Declerations.h(19,2): error C2535: 'playerItem::playerItem(void)': member function already defined or declared
-  (compiling source file 'TBA-RPG-Functions.cpp')
-      C:\Users\s258026\Documents\GitHub\Supplemental\TBA-RPG-Declerations.h(16,2):
-      see declaration of 'playerItem::playerItem'
-  
-  Generating Code...
+﻿  Functions.cpp
+C:\Users\colli\OneDrive\Documents\GitHub\Supplemental\Functions.cpp(189,16): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\colli\OneDrive\Documents\GitHub\Supplemental\Functions.cpp(255,17): warning C4552: '<': result of expression not used
+C:\Users\colli\OneDrive\Documents\GitHub\Supplemental\Functions.cpp(66,1): warning C4172: returning address of local variable or temporary : willitwork
+C:\Users\colli\OneDrive\Documents\GitHub\Supplemental\Functions.cpp(75,1): warning C4172: returning address of local variable or temporary : willitwork
+C:\Users\colli\OneDrive\Documents\GitHub\Supplemental\Functions.cpp(161,1): warning C4715: 'myString::Find': not all control paths return a value
+C:\Users\colli\OneDrive\Documents\GitHub\Supplemental\Functions.cpp(174,1): warning C4715: 'myString::Find': not all control paths return a value
+  Supplemental.vcxproj -> C:\Users\colli\OneDrive\Documents\GitHub\Supplemental\x64\Debug\Supplemental.exe

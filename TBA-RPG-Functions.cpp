@@ -7,6 +7,7 @@
 using namespace std;
 
 
+
 //texts
 string intro() {
 	cout << "===================={ Text Based RPG }====================" << endl;
@@ -21,7 +22,3 @@ string outro() {
 	return 0;
 }
 //=============================
-
-inline playerItem::~playerItem()
-{
-}
