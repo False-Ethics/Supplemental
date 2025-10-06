@@ -131,7 +131,7 @@ myString& myString::ToLower()
 {
     for (int i = 0; i < length; i++) {
         if (Data[i] >= 'A' && Data[i] <= 'Z') {
-            Data[i] = Data[i] + 32;
+            Data[i] = Data[i] + ('a' - 'A');
         }
   }
     return *this;
@@ -199,15 +199,14 @@ myString& myString::Replace(const myString& findStr, const myString& replaceStr)
 }
 myString& myString::ReadFromConsole()
 {
-    char input[20];
-    cin >> input;
-    length = 0;
-    while (input[length] != '\0') {length++;}
+    string temp;
+    getline(cin, temp);
     delete[] Data;
+    length = temp.length();
     Data = new char[length + 1];
     for (int i = 0; i < length; i++) {
-        Data[i] = input[i];
-        }
+        Data[i] = temp[i];
+    }
     Data[length] = '\0';
     return *this;
 }
@@ -221,7 +220,12 @@ myString& myString::WriteToConsole()
 
 bool myString::operator==(const myString& other)
 {
-    return EqualTo(other);
+    if (length != other.length) return false;
+    for (int i = 0; i < length; i++) {
+        if (Data[i] != other.Data[i])
+            return false;
+    }
+    return true;
 }
 bool myString::operator!=(const myString& other)
 {

@@ -5,10 +5,6 @@
 #include <cstddef>
 using namespace std;
 
-string intro();
-string outro();
-
-
 class item {
 public: 
 	virtual void Use() {}
@@ -38,7 +34,10 @@ public:
 	}
 
 	void Description() {
-
+		if (gold > 0)
+			cout << "A treasure chest that could be a mimic?" << endl;
+		else
+			cout << "An empty treasure chest" << endl;
 	}
 
 };
@@ -99,7 +98,7 @@ private:
 public:
 	playerSpells() {
 		spellList[0] = "Light";
-		spellList[1] = "FireBolt";
+		spellList[1] = "fireball";
 		spellList[2] = "FrostBolt";
 	}
 	void checkSpells() {
@@ -112,7 +111,7 @@ public:
 		for (int i = 0; i < spellName.length(); i++) {
 			spellName[i] = tolower(spellName[i]);
 		}
-		if (spellName == "fireball") {
+		if (spellName == "light") {
 			cout << "You cast light! The room is now illuminated!" << endl;
 		}
 		else if (spellName == "fireball") {
@@ -172,7 +171,7 @@ public:
 	void EnterRoom() {
 		cout << Description << endl;
 		if (roomItem != NULL) {
-			roomItem->Description(); //accessing pointer brocode way
+			roomItem->Description(); 
 		}
 	}
 };
